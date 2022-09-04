@@ -1,0 +1,35 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  width: 320px;
+  font-family: "Comfortaa", cursive;
+  margin: 100px auto;
+  box-shadow: 0 0 50px rgba(205, 223, 255, 0.818);
+}
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}  
+.img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.content {
+  text-align: center;
+  width: fit-content;
+}
+
+.content h2 {
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+}
+.content p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  padding: 10px;
+}
